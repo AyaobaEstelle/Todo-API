@@ -9,11 +9,10 @@ app.use(express.json());
 
 
 app.use("/api/todos", todoRoute);
-app.use("/api/todo", todoRoute);
 
 
 app.get("/", (req, res) => {
-    res.send("Backend development");  
+    res.send("API creation with Node.js, MongoDB, and Express");  
 });
 
 
